@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "barbearia-app",
-    "slug": "barbearia-app",
+    "name": "chavedocorte",
+    "slug": "chavedocorte",
+    "scheme": "chavedocorte",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +21,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.chavedocorte"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
